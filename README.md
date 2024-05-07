@@ -1,6 +1,6 @@
-# shaw-xkb
+# jafl-xkb
 
-This is an XKB port of [@Shavian-info](https://github.com/Shavian-info)'s [experimental "JAFL" layout](https://discord.com/channels/270907769257721856/270913515777163265/1203296681878360075), along with a variant using Dvorak punctuation. The punctuation keys are swapped with their corresponding symbol in the other layout.
+This is an XKB port of [@Shavian-info](https://github.com/Shavian-info)'s [experimental "JAFL" layout](https://discord.com/channels/270907769257721856/270913515777163265/1203296681878360075), along with a variant using the Dvorak punctuation scheme. The punctuation keys are swapped with their corresponding symbol in the other layout.
 
 ## Qwerty-style punctuation
 
@@ -12,11 +12,11 @@ This is an XKB port of [@Shavian-info](https://github.com/Shavian-info)'s [exper
 
 ## Compose Sequences
 
-MacOS JAFL uses dead-keys to produce ligatures, so typing `𐑩 𐑮` outputs `𐑼`. However this is not possible in XKB; one could make `𐑩` a dead-key, but then it would not be possible to output `𐑩` directly without a key combination like `𐑩 𐑩`. Very cumbersome! Instead, shaw-xkb uses compose sequences for ligutures and extended Shavian characters. This requires binding a compose key: see choices in the "Position of Compose key" section of your keyboard layout options (or in the "Compose Key" section of `/usr/share/X11/xkb/rules/evdev.lst` for CLI args). The layout images below use Right Alt as compose, set via `setxkbmap -option compose:ralt`. To output a ligature, press the Compose key followed by the key sequence for that symbol. For example `<Compose> 𐑩 𐑮` outputs `𐑼`; `<Compose> 𐑘 𐑵` outputs `𐑿`.
+MacOS JAFL uses dead-keys to produce ligatures, so typing `𐑩 𐑮` outputs `𐑼`. However this is not possible in XKB; one could make `𐑩` a dead-key, but then it would not be possible to output `𐑩` directly without a key combination like `𐑩 𐑩`. Very cumbersome! Instead, jafl-xkb uses compose sequences for ligutures and extended Shavian characters. This requires binding a compose key: see choices in the "Position of Compose key" section of your keyboard layout options (or in the "Compose Key" section of `/usr/share/X11/xkb/rules/evdev.lst` for CLI args). The layout images below use Right Alt as compose, set via `setxkbmap -option compose:ralt`. To output a ligature, press the Compose key followed by the key sequence for that symbol. For example `<Compose> 𐑩 𐑮` outputs `𐑼`; `<Compose> 𐑘 𐑵` outputs `𐑿`.
 
-Note that the extended shavian characters require a font that supports them via Unicode Variation Selector 1; for example [Inter Alia](https://github.com/Shavian-info/interalia?tab=readme-ov-file#extended-shavian-letters).
+The extended shavian characters require a font that supports them via Unicode Variation Selector 1; for example [Inter Alia](https://github.com/Shavian-info/interalia?tab=readme-ov-file#extended-shavian-letters).
 
-Note that shift-layer punctuation in MacOS JAFL (eg. `_`, `‹`, `·`, etc.) is removed here in favor of compose sequences or standard Qwerty/Dvorak punctuation.
+Shift-layer punctuation in MacOS JAFL (eg. `_`, `‹`, `·`, etc.) is removed here in favor of compose sequences or standard Qwerty/Dvorak punctuation.
 
 ![JAFL Compose Sequences](./img/jafl-compose.png)
 
