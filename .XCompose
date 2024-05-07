@@ -1,0 +1,21 @@
+include "%L"
+
+<Multi_key> <U10469> <U1046E> : "𐑼"  # 𐑩𐑮
+<Multi_key> <U1046D> <U1046E> : "𐑸"  # 𐑭𐑮
+<Multi_key> <U10477> <U1046E> : "𐑹"  # 𐑷𐑮
+<Multi_key> <U10471> <U1046E> : "𐑺"  # 𐑱𐑮
+<Multi_key> <U10473> <U1046E> : "𐑻"  # 𐑳𐑮
+<Multi_key> <U10466> <U1046E> : "𐑽"  # 𐑦𐑮
+<Multi_key> <U10466> <U10469> : "𐑾"  # 𐑦𐑩
+<Multi_key> <U10458> <U10475> : "𐑿"  # 𐑘𐑵
+
+<Multi_key> <U10471> <U10471> : "𐑺︀"  # 𐑱𐑱
+<Multi_key> <U10473> <U10473> : "𐑻︀"  # 𐑳𐑳
+<Multi_key> <U10452> <U10452> : "𐑒︀"  # 𐑒𐑒
+<Multi_key> <U1045C> <U1045C> : "𐑜︀"  # 𐑜𐑜
+<Multi_key> <U10462> <U10462> : "𐑢︀"  # 𐑢𐑢
+<Multi_key> <U10464> <U10464> : "𐑤︀"  # 𐑤𐑤
+
+<Multi_key> <comma> <period> : "·"  # .-
+<Multi_key> <period> <comma> : "⸰" # .,
+
