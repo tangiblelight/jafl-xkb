@@ -14,5 +14,11 @@
         <description>(Dvorak)</description>
       </configItem>
     </variant>
+    <variant>
+      <configItem>
+        <name>dvqwerty</name>
+        <description>(Dvorak-mapped Qwerty)</description>
+      </configItem>
+    </variant>
   </variantList>
 </layout>
