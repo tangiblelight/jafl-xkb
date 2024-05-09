@@ -19,3 +19,8 @@ include "%L"
 <Multi_key> <comma> <period> : "·"  # .-
 <Multi_key> <period> <comma> : "⸰" # .,
 
+# to avoid Shift in these combinations.
+<Multi_key> <U10468> <U1046E> : "𐑸"  # 𐑨𐑮
+<Multi_key> <U1046A> <U1046E> : "𐑹"  # 𐑪𐑮
+<Multi_key> <U10462> <U10466> : "𐑿"  # 𐑢𐑦
+

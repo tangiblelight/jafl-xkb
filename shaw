@@ -105,9 +105,9 @@ xkb_symbols "dvorak" {
     key <AB05> {[ U10463 ]};
     key <AB06> {[ U1045D ]};
     key <AB07> {[ U1045A ]};
-    key <AB08> {[ U10471, U1046C ]};
+    key <AB08> {[ U10470 ]};
     key <AB09> {[ U10467 ]};
-    key <AB10> {[ U10470 ]};
+    key <AB10> {[ U10471, U1046C ]};
 };
 
 partial alphanumeric_keys modifier_keys
@@ -161,8 +161,8 @@ xkb_symbols "dvqwerty" {
     key <AB02> {[ U10463 ]};
     key <AB05> {[ U1045D ]};
     key <AB07> {[ U1045A ]};
-    key <AD02> {[ U10471, U1046C ]};
+    key <AD02> {[ U10470 ]};
     key <AB04> {[ U10467 ]};
-    key <AB01> {[ U10470 ]};
+    key <AB01> {[ U10471, U1046C ]};
 };
 

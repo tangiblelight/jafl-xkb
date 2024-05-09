@@ -12,6 +12,8 @@
 
 ![JAFL Dvorak 𐑤𐑱𐑬𐑑](./img/jafl-dvorak.png)
 
+𐑕𐑦𐑥𐑚𐑩𐑤𐑟 𐑸 𐑕𐑢𐑪𐑐𐑑 𐑕𐑴 𐑞𐑱 𐑮𐑦𐑥𐑱𐑯 𐑪𐑯 𐑞 𐑕𐑱𐑥 𐑓𐑦𐑙𐑜𐑼, 𐑪𐑯 𐑞 𐑪𐑐𐑩𐑟𐑦𐑑 𐑣𐑨𐑯𐑛.
+
 𐑿𐑟 𐑝𐑺𐑾𐑯𐑑 `dvorak`. 𐑞𐑺 𐑦𐑟 𐑷𐑤𐑕𐑴 𐑩 `dvqwerty` 𐑝𐑺𐑾𐑯𐑑 𐑓 𐑿𐑕 𐑢 𐑣𐑸𐑛𐑢𐑺 Dvorak 𐑒𐑰𐑚𐑹𐑛𐑟.
 
 ### 𐑒𐑩𐑥𐑐𐑴𐑟 𐑕𐑰𐑒𐑢𐑩𐑯𐑕𐑩𐑟
@@ -49,6 +51,8 @@ This is an XKB port of [@Shavian-info](https://github.com/Shavian-info)'s [exper
 ### Dvorak-style punctuation
 
 ![JAFL Dvorak Layout](./img/jafl-dvorak.png)
+
+Symbols are swapped so they remain on the same finger, on the opposite hand.
 
 Use variant `dvorak`. There is also a `dvqwerty` variant for use with hardware Dvorak keyboards.
 
